@@ -1,491 +1,491 @@
 * {
-  margen: 0;
-  relleno: 0;
-  familia de fuentes: 'Signika', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family:  'Signika', sans-serif;
  
-  list-style-type: ninguno;
-  texto-decoración: ninguno;
-  tamaño de la caja: caja de borde;
-  esquema: ninguno;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: none;
 }
 
 
-. caja{
-    borde: 1px sólido ninguno;
-    ancho: 100%;
+.box{
+    border: 1px solid none;
+    width: 100%;
     
 }
 
-. barra de caja{
-    borde: 1px negro sólido;
-    relleno: 57px;
-    fondo: negro;
-    margen superior: -2px;
+.boxbar{
+    border: 1px solid black;
+    padding: 57px;
+    background: black;
+    margin-top: -2px;
 }
 
-. dirección de la barra de caja a{
-    flotador: centro;
-    texto-decoración: ninguno;
-    color: blanco;
+.boxbar address a{
+    float:center;
+    text-decoration: none;
+    color:white;
     
 }
 
-. boxbar i{
-    color: blanco;
-    ancho: 30px;
+.boxbar i{
+    color:white;
+    width: 30px;
 }
-. lista{
-    borde-fondo-ancho: 900px;
-    borde-fondo: 2.5px grasa oscura sólida;
-    relleno: 15px; 
-    flotador: derecha;
+.list{
+    border-bottom-width: 900px;
+    border-bottom: 2.5px solid darkgray;
+    padding:15px; 
+    float: right;
    
 }
 
-. lista ul li{
-    flotador: izquierda;
-    text-align: centro;
-    ancho: 100px;
-    list-style-type: ninguno;
-    relleno: 5px;
+.list ul li{
+    float: left;
+    text-align: center;
+    width: 100px;
+    list-style-type: none;
+    padding:5px;
 }
 
 
-. lista ul li a {
-    texto-decoración: ninguno; 
-    color: blanco; 
+.list ul li a{
+    text-decoration: none; 
+    color: white; 
 
 }
 
-. lista ul li a:hover{
-    borde-fondo: 4px sólido #e8491d;
-    relleno: 2px;
+.list ul li a:hover{
+    border-bottom: 4px solid #e8491d;
+    padding: 2px;
 }
 
-. índice{
-    fondo: gradiente lineal (rgba(0,0,0,0.65),rgba(0,0,0,0.65),rgba(0,0,0,0.38), rgba(0,0,0,0)),url(images/learning.jpg)no-repeat;
+.index{
+    background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0)),url(images/learning.jpg)no-repeat;
     
-    tamaño de fondo: cubierta;
-    familia de fuentes: latha;
+    background-size: cover;
+    font-family: latha;
    
 }
 h2{
-   flotador: izquierda;
+   float: left;
 }
 
-. escritor{
-    ancho: 600px;
-    flotador: derecha;
+.writer{
+    width: 600px;
+    float: right;
     
     
 }
 
-. escritor h2{
+.writer h2{
     font-family: titillium web , sans-serif;
-    tamaño de fuente: 35px;
-    font-weight: negrita;
-    text-transform: mayúsculas;
-    color: blanco;
-    sombra de texto: 1px 1px 1px;
-    acolchado-top: 70px;
-    altura de línea: 50px;
-    animación:textanimación 4s infinito;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 1px;
+    padding-top: 70px;
+    line-height: 50px;
+    animation:textanimation 4s infinite;
     
 }
 
 @keyframes textanimation{
 
    0%{
-       espaciado de letras: 5px;
+       letter-spacing: 5px;
    }
    100%{
 
-      espaciado de letras: .5px;
+      letter-spacing: .5px;
    }
 }
-. escritor h4{
-    font-family: arenas movedizas, sans-serif;
-    text-transform: mayúsculas;
-    ancho: 600px;
+.writer h4{
+    font-family: quicksand ,sans-serif;
+    text-transform: capitalize;
+    width: 600px;
     color:#ffffff;
-    posición: absoluta;
-    arriba:57%;
+    position: absolute;
+    top:57%;
    
    
-    opacidad: 0.6;
+    opacity: 0.6;
 }
-. entrada del formulario del escritor[type="submit"]{
-    posición: absoluta;
-    arriba: 75%;
-    izquierda: 29%;
-    frontera: ninguna;
-    color: blanco;
-    color de fondo: carmesí;
-    text-transform: mayúsculas;
-    relleno: 10px;
+.writer form input[type="submit"]{
+    position: absolute;
+    top: 75%;
+    left: 29%;
+    border: none;
+    color:white;
+    background-color: crimson;
+    text-transform: uppercase;
+    padding: 10px;
     
     
 }
 
-. entrada del formulario writer[type="submit"]:hover{
-    fondo: verde;
+.writer form input[type="submit"]:hover{
+    background: green;
     
 }
-. video-contenedor {
-    posición: absoluta;
-    arriba: 0;
-    izquierda: 0;
-    ancho: 100%;
-    altura: 100%;
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   
   }
   
- . bg-video {
-    ancho: 100%;
-    altura: 100%;
-    ajuste del objeto: cubierta;
+  .bg-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     
   }
 
    
 
    
-. envoltorio de historias {
-  pantalla: en línea-flexbox;
-  flex-direction: de izquierda a derecha;
-  align-items: centro;
+.stories-wrapper {
+  display: inline-flexbox;
+  flex-direction: left-to-right;
+  align-items: center;
   
 }
 
-. historia-bg {
-  color de fondo: rgba (238, 238, 238, 0.85);
-  relleno: 2rem;
-  margen: 5rem;
-  margen superior: -490px;
-  ancho: 55%;
+.story-bg {
+  background-color: rgba(238, 238, 238, 0.85);
+  padding:2rem;
+  margin: 5rem;
+  margin-top:-490px;
+  width:55%;
   box-shadow: 0 4rem 7rem rgba(51, 51, 51, 0.4);
-  transformar: skewX(20deg);
+  transform: skewX(20deg);
   
 }
 
-. cuento {
+.story {
   transform: skewX(-20deg);
-  pantalla: flex;
+  display: flex;
 }
 
-. historia-imagen {
-  ancho: 5rem;
-  altura: 5rem;
-  radio de borde: 50%;
-  ajuste del objeto: cubierta;
-  margen derecho: 5rem;
+.story-image {
+  width:  5rem;
+  height:  5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 5rem;
 }
 
-. historia-texto {
-  espaciado de letras: 0.1rem;
+.story-text {
+  letter-spacing: 0.1rem;
 }
 
-. encabezado de la historia {
-  tamaño de fuente: 1rem;
-  text-transform: mayúsculas;
+.story-heading {
+  font-size: 1rem;
+  text-transform: uppercase;
   color: 4e89754;
-  margen-fondo: 1rem;
+  margin-bottom: 1rem;
 }
 
-. historia-párrafo {
-  tamaño de fuente: .6rem;
-  color: # e8491d;
+.story-paragraph {
+  font-size: .6rem;
+  color:#e8491d;
 }
 
-. historia-párrafo::primera letra {
-  margen izquierdo: 1rem;
+.story-paragraph::first-letter {
+  margin-left: 1rem;
 }
 
 
-pie de página{
-    relleno: 57px;
-    borde-fondo: lightcoral;
-    margin-top: 593px;
+footer{
+    padding:57px;
+    border-bottom: lightcoral;
+    margin-top:593px;
     color:#ffffff;
-    color de fondo: # e8491d;
-    text-align:centro;
+    background-color:#e8491d;
+    text-align:center;
     
     
   }
- . aboutheader{
-    borde: 1px negro sólido;
-    relleno: 17px;
-    fondo: negro;
-    margen superior: -20px;
+  .aboutheader{
+    border: 1px solid black;
+    padding: 17px;
+    background: black;
+    margin-top: -20px;
   }
- . aboutfooter{
-    relleno: 100px;
-    altura: 27%;
-    ancho: 100%;
-    borde-fondo: lightcoral;
-    margen superior: .2px;
+  .aboutfooter{
+    padding:100px;
+    height: 27%;
+    width: 100%;
+    border-bottom: lightcoral;
+    margin-top:.2px;
     color:#ffffff;
-    color de fondo: # e8491d;
-    text-align:centro;
+    background-color:#e8491d;
+    text-align:center;
     
   }
- . aboutfooter li {
+   .aboutfooter li {
   
-  flotador: izquierda;
-  text-align: centro;
-  color: blanco;
-  ancho: 90px;
-  list-style-type: ninguno;
-  relleno: -10px;
+  float: left;
+  text-align: center;
+  color: white;
+  width: 90px;
+  list-style-type: none;
+  padding:-10px;
  
  
 
 }
 
-. contenedor{
+.container{
 
-  pantalla: flex;
-  justificar-contenido: centro;
-  align-items: centro;
-  altura mínima: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
-. contenedor . recuadro1{
+.container .box1{
 
-  posición: pariente;
-  ancho: 350px;
-  relleno: 40px;
-  fondo: blanco;
-  box-shadow: 0 5px 15px rgba (0,0,0,0.1 );
-  radio de borde: 4px;
-  margen: 20px;
-  tamaño de la caja: caja de borde;
-  desbordamiento: oculto;
-  text-align: centro;
-}
-
-. contenedor . casilla1:antes{
-
-  contenido: '';
-  ancho: 50px;
-  altura: 100px;
-  arriba:0;
-  izquierda:0;
-  posición: absoluta;
-  fondo: rgba(255,255,255,0.2);
- índice z: 2;
- eventos de puntero: ninguno;
-}
-. contenedor . recuadro1 . icono{
-
-  posición: pariente;
-  ancho: 80px;
-  altura: 80px;
-  color: blanco;
-  antecedentes: #000;
-  pantalla: flex;
-  justificar-contenido: centro;
-  align-items: centro;
-  margen: 0 auto;
-  borde-radio: 50px;
-  tamaño de fuente: 20px;
-  peso de fuente: 700;
-  transición: 3s;
+  position: relative;
+  width: 350px;
+  padding: 40px;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
 }
 
-. contenedor . recuadro1:enésimo-niño(1). icono{
+.container .box1:before{
 
-  caja-sombra: 0 0 0 0 #e91e63;
-  fondo: #e91e63; 
+  content: '';
+  width: 50px;
+  height: 100px;
+  top:0;
+  left:0;
+  position: absolute;
+  background: rgba(255,255,255,0.2);
+ z-index: 2;
+ pointer-events: none;
 }
-. contenedor . box1:nth-child(1):hover . icono{
+.container .box1 .icon{
 
-  caja-sombra: 0 0 0 400px #e91e63;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  color: white;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius:50px;
+  font-size: 20px;
+  font-weight: 700;
+  transition: 3s;
+}
+
+.container .box1:nth-child(1).icon{
+
+  box-shadow: 0 0 0 0 #e91e63;
+  background: #e91e63; 
+}
+.container .box1:nth-child(1):hover .icon{
+
+  box-shadow: 0 0 0 400px #e91e63;
   
 }
 
-. contenedor . recuadro1:enésimo-niño(2). icono{
+.container .box1:nth-child(2).icon{
 
-  caja-sombra: 0 0 0 0 #23e629;
-  fondo:#23e629;
+  box-shadow: 0 0 0 0 #23e629;
+  background:#23e629;
   
 }
 
-. contenedor . box1:nth-child(2):hover . icono{
+.container .box1:nth-child(2):hover .icon{
 
-  caja-sombra: 0 0 0 400px #23e629;
+  box-shadow: 0 0 0 400px #23e629;
   
 }
-. contenedor . recuadro1:enésimo-niño(3). icono{
+.container .box1:nth-child(3).icon{
 
-  caja-sombra: 0 0 0 0 #2196f3;
-  fondo:#2196f3;
-  
-}
-
-. contenedor . box1:nth-child(3):hover . icono{
-
-  caja-sombra: 0 0 0 400px #2196f3;
+  box-shadow: 0 0 0 0 #2196f3;
+  background:#2196f3;
   
 }
 
-. contenedor . recuadro1 . contenido{
+.container .box1:nth-child(3):hover .icon{
 
-  posición: pariente;
-  índice z: 1;
-  transición: 0.5s;
+  box-shadow: 0 0 0 400px #2196f3;
   
 }
-. contenedor . box1:hover . contenido{
-  color: blanco;
-}
 
-. contenedor . recuadro1 . contenido h3{
-  
-  tamaño de fuente: 20px;
-  margen: 10px 0;
-  relleno: 0;
-}
-. contenedor . recuadro1 . contenido p{
+.container .box1 .content{
 
-  margen: 0;
-  relleno: 0;
-}
-. contenedor1 h1{
-  text-align: centro;
-  text-transform: mayúsculas;
-  color: blanco;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
   
 }
-un{
-  display:bloque en línea;
-  relleno: 10px 20px;
-  fondo: #e8491d;
-  radio de borde: 4px;
-  texto-decoración: ninguno;
-  color: blanco;
-  peso de fuente: 500;
-  margen superior: 20px;
-  box-shadow: 0 2px 5px rgba (0,0,0,0.2 );
+.container .box1:hover .content{
+  color:white;
+}
+
+.container .box1 .content h3{
+  
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 0;
+}
+.container .box1 .content p{
+
+  margin: 0;
+  padding: 0;
+}
+.container1 h1{
+  text-align: center;
+  text-transform: uppercase;
+  color:white;
+  
+}
+a{
+  display:inline-block;
+  padding:10px 20px;
+  background: #e8491d;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
 
- . caja{
-  fondo: gradiente lineal (rgba(0,0,0,0.65),rgba(0,0,0,0.65),rgba(0,0,0,0.38), rgba(0,0,0,0)),url(images/study.jpg)no-repeat;
+ .box{
+  background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0)),url(images/study.jpg)no-repeat;
   
-  tamaño de fondo: cubierta;
-  familia de fuentes: latha;
+  background-size: cover;
+  font-family: latha;
  
 }
-. cuadro de búsqueda{
-  posición: absoluta;
-  arriba: 120px;
-  izquierda:1070px;
-  transformar: traducir(-50px,-50px);
-  fondo: #2f3640;
-   altura: 40px;
-   radio de borde: 40px;
-   relleno: 19px;
+.search-box{
+  position: absolute;
+  top: 120px;
+  left:1070px;
+  transform: translate(-50px,-50px);
+  background: #2f3640;
+   height:40px;
+   border-radius: 40px;
+   padding: 19px;
 
 }
-. search-box:hover>. buscar-txt{
-  ancho: 240px;
-  relleno: 0 6px;
+.search-box:hover>.search-txt{
+  width:240px;
+  padding:0 6px;
 
 }
-. search-box:hover>. búsqueda-btn{
-  fondo: blanco;
+.search-box:hover>.search-btn{
+  background: white;
 }
-. búsqueda-btn{
-  color: # e8491d;
-  flotador: derecha;
-  ancho: 40px;
-  altura: 40px;
-  radio de borde: 50px;
-  fondo:#2f3640; 
-  pantalla: flex;
-  justificar-contenido: centro;
-  align-items: centro;
+.search-btn{
+  color:#e8491d;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background:#2f3640; 
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
-. buscar-txt{
-  frontera: ninguna;
-  antecedentes: ninguno;
-  esquema: ninguno;
-  flotador: izquierda;
-  relleno: 0;
-  color: blanco;
-  tamaño de fuente: 16px;
-  transición: .4s;
-  ancho: 0px;
+.search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: .4s;
+  width:0px;
 }
 
-. coursefooter{
-    relleno: 59px;
-    altura: 173%;
-    ancho: 100%;
-    borde-fondo: lightcoral;
-    margin-top: 170px;
+.coursefooter{
+    padding:59px;
+    height: 173%;
+    width: 100%;
+    border-bottom: lightcoral;
+    margin-top:170px;
     color:#ffffff;
-    color de fondo: # e8491d;
-    text-align:centro;
+    background-color:#e8491d;
+    text-align:center;
     
   }
- . coursefooter li {
+   .coursefooter li {
   
-  flotador: izquierda;
-  text-align: centro;
-  color: blanco;
-  ancho: 90px;
-  list-style-type: ninguno;
-  relleno: -10px;
+  float: left;
+  text-align: center;
+  color: white;
+  width: 90px;
+  list-style-type: none;
+  padding:-10px;
  
  
 
 }
 
-. recuadro2{
-  fondo: gradiente lineal (rgba(0,0,0,0.65),rgba(0,0,0,0.65),rgba(0,0,0,0.38), rgba(0,0,0,0)),url(images/desk2.png)no-repeat;
-  tamaño de fondo: cubierta;
-  familia de fuentes: latha;
+.box2{
+  background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0)),url(images/desk2.png)no-repeat;
+  background-size: cover;
+  font-family: latha;
  
   
 }
-. barra de caja2{
-  borde: 1px negro sólido;
-  relleno: 57px;
-  fondo: negro;
-  margen superior: -2px;
+.boxbar2{
+  border: 1px solid black;
+  padding: 57px;
+  background: black;
+  margin-top: -2px;
 }
 
-. boxbar2 dirección a{
-  flotador: centro;
-  texto-decoración: ninguno;
-  color: blanco;
+.boxbar2 address a{
+  float:center;
+  text-decoration: none;
+  color:white;
   
 }
 
-. boxbar2 i{
-  color: blanco;
-  ancho: 30px;
+.boxbar2 i{
+  color:white;
+  width: 30px;
 }
-. pie de contacto{
-    relleno: 70px;
-    altura: 173%;
-    ancho: 100%;
-    borde-fondo: lightcoral;
-    margin-top: 390px;
+.contactfooter{
+    padding:70px;
+    height: 173%;
+    width: 100%;
+    border-bottom: lightcoral;
+    margin-top:390px;
     color:#ffffff;
-    color de fondo: # e8491d;
-    text-align:centro;
+    background-color:#e8491d;
+    text-align:center;
     
   }
- . contactofooter li {
+  .contactfooter li {
   
-    flotador: izquierda;
-    text-align: centro;
-    color: blanco;
-    ancho: 90px;
-    list-style-type: ninguno;
-    relleno: -10px;
+    float: left;
+    text-align: center;
+    color: white;
+    width: 90px;
+    list-style-type: none;
+    padding:-10px;
    
    
   
